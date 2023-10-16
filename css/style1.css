@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+:root{
+    --main-color:#8e44ad;
+    --red:#e74c3c;
+    --orange:#f39c12;
+    --light-color:#888;
+    --light-bg:#eee;
+    --black:#2c3e50;
+    --white:#fff;
+    --border:.1rem solid rgba(0,0,0,.2);
+ }
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+ }
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+ }
+ body{
+    background-color: var(--light-bg);
+
+ }
+ section{
+    padding:2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+ }
+ .form-container{
+    min-height: calc(100vh - 20rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .form-container form{
+    background-color: var(--white);
+    border-radius: .5rem;
+    padding: 2rem;
+    width: 50rem;
+ }
+ 
+ .form-container form h3{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: var(--black);
+    text-align: center;
+ }
+ 
+ .form-container form p{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    padding-top: 1rem;
+ }
+ 
+ .form-container form p span{
+    color: var(--red);
+ }
+ 
+ .form-container form .box{
+    font-size: 1.8rem;
+    color: var(--black);
+    border-radius: .5rem;
+    padding: 1.4rem;
+    background-color: var(--light-bg);
+    width: 100%;
+    margin: 1rem 0;
+ }
+ .form-container form .login__btn{
+    display: flex;
+    justify-content: center;
+ }
+ .form-container form .login__btn a{
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid black;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+ }
+ .form-container form .login__btn a:hover{
+    background-color: white;
+    border: 1px solid black;
+    color:black
+ }
